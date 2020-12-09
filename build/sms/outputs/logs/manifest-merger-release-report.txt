@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:2:3-32
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_SMS
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:5:5-69
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:5:22-67
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:6:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:7:22-69
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:8:22-68
+uses-sdk
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:9:5-42
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:9:5-42
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:9:5-42
+	android:minSdkVersion
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml:9:15-40
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\sms-0.2.4\android\src\main\AndroidManifest.xml

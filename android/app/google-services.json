@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "746603307187",
+    "firebase_url": "https://e-learning-34219.firebaseio.com",
+    "project_id": "e-learning-34219",
+    "storage_bucket": "e-learning-34219.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746603307187:android:34db201881034468b850c6",
+        "android_client_info": {
+          "package_name": "com.smarttersstudio.englishLearningApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746603307187-9lf4ihpvhbql60dmehapf030d2k8v85p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smarttersstudio.englishLearningApp",
+            "certificate_hash": "130cb485088abb68453046efe823fb0b93365ac9"
+          }
+        },
+        {
+          "client_id": "746603307187-ccq0afrq27d1c2anlkt03aot3phso2i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgoS9UUk2uwZDWvN74ZidyRZAGfl0CEkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746603307187-ccq0afrq27d1c2anlkt03aot3phso2i5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "746603307187-rl59veclaedb2req708fda29cns720tl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.smarttersstudio.learningApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

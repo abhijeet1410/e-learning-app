@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\flutter_inappwebview\\intermediates\\res\\merged\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\55c3f12cf0cd21ab82a6492ce6dc25a2\\appcompat-1.0.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\flutter_inappwebview\\intermediates\\res\\merged\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\55c3f12cf0cd21ab82a6492ce6dc25a2\\appcompat-1.0.0\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\flutter_inappwebview\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\55c3f12cf0cd21ab82a6492ce6dc25a2\\appcompat-1.0.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\flutter_inappwebview\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\55c3f12cf0cd21ab82a6492ce6dc25a2\\appcompat-1.0.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\flutter_inappwebview\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\55c3f12cf0cd21ab82a6492ce6dc25a2\\appcompat-1.0.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\flutter_inappwebview\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\415ea6a7f330b007067d3b262df6e871\\core-1.1.0\\res\\drawable-v21\\notification_action_background.xml"
+    }
+]

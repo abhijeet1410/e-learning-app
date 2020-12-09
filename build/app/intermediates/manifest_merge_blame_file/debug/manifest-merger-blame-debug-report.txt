@@ -1,0 +1,377 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smarttersstudio.englishLearningApp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->F:\Projects\e-learning-app\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->F:\Projects\e-learning-app\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_SMS" />
+15-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+15-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.SEND_SMS" />
+16-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
+16-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+17-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-70
+17-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-67
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-75
+18-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-72
+19    <uses-permission android:name="android.permission.READ_CONTACTS" />
+19-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-72
+19-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-69
+20    <uses-permission android:name="android.permission.READ_PROFILE" />
+20-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-71
+20-->[:sms] F:\Projects\e-learning-app\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-68
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+21-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+22-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:24:5-79
+23-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:24:22-76
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
+24-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:25:22-65
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+26-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+27    <!--
+28 io.flutter.app.FlutterApplication is an android.app.Application that
+29         calls FlutterMain.startInitialization(this); in its onCreate method.
+30         In most cases you can leave this as-is, but you if you want to provide
+31         additional functionality it is fine to subclass or reimplement
+32         FlutterApplication and put your custom class here.
+33    -->
+34    <application
+34-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:8:5-46:19
+35        android:name="io.flutter.app.FlutterApplication"
+35-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:9:9-57
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.1.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\415ea6a7f330b007067d3b262df6e871\core-1.1.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:11:9-43
+39        android:label="learning_app" >
+39-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:10:9-37
+40        <activity
+40-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:12:9-40:20
+41            android:name="com.smarttersstudio.learning_app.MainActivity"
+41-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:13:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:16:13-163
+43            android:hardwareAccelerated="true"
+43-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:17:13-47
+44            android:launchMode="singleTop"
+44-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:14:13-43
+45            android:theme="@style/LaunchTheme"
+45-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:15:13-47
+46            android:windowSoftInputMode="adjustResize" >
+46-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:18:13-55
+47
+48            <!--
+49                 Specifies an Android theme to apply to this Activity as soon as
+50                 the Android process has started. This theme is visible to the user
+51                 while the Flutter UI initializes. After that, this theme continues
+52                 to determine the Window background behind the Flutter UI.
+53            -->
+54            <meta-data
+54-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:23:13-26:17
+55                android:name="io.flutter.embedding.android.NormalTheme"
+55-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:24:15-70
+56                android:resource="@style/NormalTheme" />
+56-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:25:15-52
+57            <!--
+58                 Displays an Android View that continues showing the launch screen
+59                 Drawable until Flutter paints its first frame, then this splash
+60                 screen fades out. A splash screen is useful to avoid any visual
+61                 gap between the end of Android's launch screen and the painting of
+62                 Flutter's first frame.
+63            -->
+64            <meta-data
+64-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:32:13-35:17
+65                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+65-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:33:15-79
+66                android:resource="@drawable/launch_background" />
+66-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:34:15-61
+67
+68            <intent-filter>
+68-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:36:13-39:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:37:17-68
+69-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:37:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:38:17-76
+71-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:38:27-74
+72            </intent-filter>
+73        </activity>
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+78-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:43:9-45:33
+79            android:name="flutterEmbedding"
+79-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:44:13-44
+80            android:value="2" />
+80-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:45:13-30
+81
+82        <service
+82-->[:firebase_auth] F:\Projects\e-learning-app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[:firebase_auth] F:\Projects\e-learning-app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\af9c8b8066743161104f18c1c0e744cf\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+86            <meta-data
+86-->[:firebase_auth] F:\Projects\e-learning-app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+87                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+87-->[:firebase_auth] F:\Projects\e-learning-app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[:firebase_auth] F:\Projects\e-learning-app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+89            <meta-data
+89-->[:firebase_storage] F:\Projects\e-learning-app\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+90                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+90-->[:firebase_storage] F:\Projects\e-learning-app\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[:firebase_storage] F:\Projects\e-learning-app\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+92            <meta-data
+92-->[:cloud_firestore] F:\Projects\e-learning-app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+93                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+93-->[:cloud_firestore] F:\Projects\e-learning-app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[:cloud_firestore] F:\Projects\e-learning-app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+95            <meta-data
+95-->[:firebase_core] F:\Projects\e-learning-app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+96                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+96-->[:firebase_core] F:\Projects\e-learning-app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[:firebase_core] F:\Projects\e-learning-app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+99                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+99-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+101            <meta-data
+101-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\4f0566e6f74e1f9ad6529a7ed2f55efc\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+102                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+102-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\4f0566e6f74e1f9ad6529a7ed2f55efc\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\4f0566e6f74e1f9ad6529a7ed2f55efc\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\ec660a06eaf26415e024054f6d6dd51b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+105                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+105-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\ec660a06eaf26415e024054f6d6dd51b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\ec660a06eaf26415e024054f6d6dd51b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a6183289c5c3ab1962eaa851b73a9dd2\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+108                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+108-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a6183289c5c3ab1962eaa851b73a9dd2\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a6183289c5c3ab1962eaa851b73a9dd2\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+111                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+111-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+113        </service>
+114
+115        <provider
+115-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+116            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+116-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+117            android:authorities="com.smarttersstudio.englishLearningApp.flutter.image_provider"
+117-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+118            android:exported="false"
+118-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+119            android:grantUriPermissions="true" >
+119-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+120            <meta-data
+120-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+121                android:name="android.support.FILE_PROVIDER_PATHS"
+121-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+122                android:resource="@xml/flutter_image_picker_file_paths" />
+122-->[:image_picker] F:\Projects\e-learning-app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+123        </provider>
+124
+125        <activity
+125-->[:razorpay_flutter] F:\Projects\e-learning-app\build\razorpay_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:20
+126            android:name="com.razorpay.CheckoutActivity"
+126-->[:razorpay_flutter] F:\Projects\e-learning-app\build\razorpay_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-57
+127            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+127-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:20:13-83
+128            android:label="Razorpay Checkout"
+128-->[:razorpay_flutter] F:\Projects\e-learning-app\build\razorpay_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-46
+129            android:theme="@style/CheckoutTheme" >
+129-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:21:13-49
+130            <intent-filter>
+130-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:22:13-28:29
+131                <action android:name="android.intent.action.MAIN" />
+131-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:37:17-68
+131-->F:\Projects\e-learning-app\android\app\src\main\AndroidManifest.xml:37:25-66
+132
+133                <data
+133-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:25:17-27:47
+134                    android:host="rzp.io"
+134-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:26:21-42
+135                    android:scheme="io.rzp" />
+135-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:27:21-44
+136            </intent-filter>
+137        </activity>
+138        <activity
+138-->[:flutter_inappwebview] F:\Projects\e-learning-app\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:47
+139            android:name="com.pichillilorenzo.flutter_inappwebview.InAppBrowser.InAppBrowserActivity"
+139-->[:flutter_inappwebview] F:\Projects\e-learning-app\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-102
+140            android:configChanges="orientation|screenSize"
+140-->[:flutter_inappwebview] F:\Projects\e-learning-app\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-59
+141            android:theme="@style/AppTheme" />
+141-->[:flutter_inappwebview] F:\Projects\e-learning-app\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-44
+142        <activity
+142-->[:flutter_inappwebview] F:\Projects\e-learning-app\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:55
+143            android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ChromeCustomTabsActivity"
+143-->[:flutter_inappwebview] F:\Projects\e-learning-app\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-110
+144            android:configChanges="orientation|screenSize"
+144-->[:flutter_inappwebview] F:\Projects\e-learning-app\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-59
+145            android:theme="@style/ThemeTransparent" />
+145-->[:flutter_inappwebview] F:\Projects\e-learning-app\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-52
+146
+147        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ActionBroadcastReceiver" />
+147-->[:flutter_inappwebview] F:\Projects\e-learning-app\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-118
+147-->[:flutter_inappwebview] F:\Projects\e-learning-app\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:19-115
+148
+149        <activity
+149-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+150            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+150-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+151            android:excludeFromRecents="true"
+151-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+152            android:exported="true"
+152-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+153            android:launchMode="singleTask"
+153-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+154            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+154-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\7350f4b54b56058760cc58a0aed28cf6\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+156
+157        <receiver
+157-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+158            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+158-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+159            android:enabled="true"
+159-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+160            android:exported="false" >
+160-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+161        </receiver>
+162        <receiver
+162-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+163            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+163-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+164            android:enabled="true"
+164-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+165            android:exported="true"
+165-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+166            android:permission="android.permission.INSTALL_PACKAGES" >
+166-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+167            <intent-filter>
+167-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+168                <action android:name="com.android.vending.INSTALL_REFERRER" />
+168-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+168-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+169            </intent-filter>
+170        </receiver>
+171
+172        <service
+172-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+173            android:name="com.google.android.gms.measurement.AppMeasurementService"
+173-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+174            android:enabled="true"
+174-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+175            android:exported="false" />
+175-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+176        <service
+176-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+177            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+177-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+178            android:enabled="true"
+178-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+180            android:permission="android.permission.BIND_JOB_SERVICE" />
+180-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\d5237d0161cd1e71dd5efdf397d3e506\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+181
+182        <receiver
+182-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+183            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+183-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+184            android:exported="true"
+184-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+185            android:permission="com.google.android.c2dm.permission.SEND" >
+185-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+186            <intent-filter>
+186-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+187                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+187-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+187-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\1fa79a0ede0631b3432ab433153b8100\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+188            </intent-filter>
+189        </receiver>
+190
+191        <provider
+191-->[com.google.firebase:firebase-common:19.3.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\af9c8b8066743161104f18c1c0e744cf\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+192            android:name="com.google.firebase.provider.FirebaseInitProvider"
+192-->[com.google.firebase:firebase-common:19.3.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\af9c8b8066743161104f18c1c0e744cf\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+193            android:authorities="com.smarttersstudio.englishLearningApp.firebaseinitprovider"
+193-->[com.google.firebase:firebase-common:19.3.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\af9c8b8066743161104f18c1c0e744cf\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+194            android:exported="false"
+194-->[com.google.firebase:firebase-common:19.3.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\af9c8b8066743161104f18c1c0e744cf\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+195            android:initOrder="100" />
+195-->[com.google.firebase:firebase-common:19.3.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\af9c8b8066743161104f18c1c0e744cf\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+196
+197        <activity
+197-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\3a62c75ce5258be8142092d76130fd67\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+198            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+198-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\3a62c75ce5258be8142092d76130fd67\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+199            android:exported="false"
+199-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\3a62c75ce5258be8142092d76130fd67\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+200            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+200-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\3a62c75ce5258be8142092d76130fd67\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+201
+202        <meta-data
+202-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\6da684bfb9dfcd5bbad3b26a0e80afc7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+203            android:name="com.google.android.gms.version"
+203-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\6da684bfb9dfcd5bbad3b26a0e80afc7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+204            android:value="@integer/google_play_services_version" />
+204-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\6da684bfb9dfcd5bbad3b26a0e80afc7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+205
+206        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+206-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:12:9-16:20
+206-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:12:19-63
+207            <intent-filter>
+207-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:13:13-15:29
+208                <action android:name="rzp.device_token.share" />
+208-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:14:17-65
+208-->[com.razorpay:checkout:1.5.16] C:\Users\abhijeet\.gradle\caches\transforms-2\files-2.1\a96bd750fc54ef7b983a280f4472c3f7\checkout-1.5.16\AndroidManifest.xml:14:25-62
+209            </intent-filter>
+210        </receiver>
+211    </application>
+212
+213</manifest>

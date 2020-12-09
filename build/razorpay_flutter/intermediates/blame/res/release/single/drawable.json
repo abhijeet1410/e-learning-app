@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\rzp_border_bottom.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\a96bd750fc54ef7b983a280f4472c3f7\\checkout-1.5.16\\res\\drawable\\rzp_border_bottom.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\415ea6a7f330b007067d3b262df6e871\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\rzp_border.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\a96bd750fc54ef7b983a280f4472c3f7\\checkout-1.5.16\\res\\drawable\\rzp_border.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\415ea6a7f330b007067d3b262df6e871\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\rzp_poweredby.png",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\a96bd750fc54ef7b983a280f4472c3f7\\checkout-1.5.16\\res\\drawable\\rzp_poweredby.png"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\rzp_loader_circle.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\a96bd750fc54ef7b983a280f4472c3f7\\checkout-1.5.16\\res\\drawable\\rzp_loader_circle.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\rzp_white_border_black_bg.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\a96bd750fc54ef7b983a280f4472c3f7\\checkout-1.5.16\\res\\drawable\\rzp_white_border_black_bg.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\415ea6a7f330b007067d3b262df6e871\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\415ea6a7f330b007067d3b262df6e871\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\rzp_green_button.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\a96bd750fc54ef7b983a280f4472c3f7\\checkout-1.5.16\\res\\drawable\\rzp_green_button.xml"
+    },
+    {
+        "merged": "F:\\Projects\\e-learning-app\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable\\rzp_secured_by_bg.xml",
+        "source": "C:\\Users\\abhijeet\\.gradle\\caches\\transforms-2\\files-2.1\\a96bd750fc54ef7b983a280f4472c3f7\\checkout-1.5.16\\res\\drawable\\rzp_secured_by_bg.xml"
+    }
+]
